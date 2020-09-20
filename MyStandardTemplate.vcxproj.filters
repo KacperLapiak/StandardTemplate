@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="myalgorithm">
+      <UniqueIdentifier>{47b6247e-602a-4c1d-a727-11c83621c2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmanage">
+      <UniqueIdentifier>{e491bbac-56ca-4e9d-ad2a-294c2793008d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns">
+      <UniqueIdentifier>{5abec5bc-9567-4a31-ba3e-0091b5dc851c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="braidCipherString.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="countStrForEachCell.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="euklidesGCD.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="euklidesLCM.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="findMaximum.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="findMinimum.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="isPrimeNumber.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="quadraticEquation.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseTableInt.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sortBubbleAsc.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sortBubbleDesc.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sortInsert.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sortSelect.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="braidCipherChar.cpp">
+      <Filter>myalgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="putRandomBytes.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+    <ClCompile Include="readByBlock.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+    <ClCompile Include="readLine.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+    <ClCompile Include="rewByBlocks.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+    <ClCompile Include="asciiCharCounter.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+    <ClCompile Include="createTmpFile.cpp">
+      <Filter>fmanage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logic.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="malgorithm.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fmanage.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
